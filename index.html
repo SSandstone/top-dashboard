@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="search">
+            <img src="./imgs/icons/magnify.png" alt="search">
+            <input type="text" name="search" id="search" placeholder="search">
+            <button type="submit">search</button>
+        </div>
+        <div class="profile">
+            <img src="./imgs/icons/bell-badge-outline.png" alt="notifications">
+            <img src="./imgs/cat head.png" alt="profile picture" class='profile-pic' id="sm-profile">
+            <h2>User</h2>
+        </div>
+        <div class="greeting">
+            <img src="./imgs/cat head.png" alt="profile picture" class="profile-pic" id="lg-profile">
+            <div>
+                <h3>Hi there,</h3>
+                <h2>User (@Username)</h2>
+            </div>
+        </div>
+        <div class="header-btns">
+            <button type="submit">New</button>
+            <button type="submit">Upload</button>
+            <button type="submit">Share</button>
+        </div>
+    </div>
+    
+    <div class="menu">
+        <h1><img src="./imgs/icons/view-dashboard-variant-outline.png" alt="dashboard" id="dash-pic"> Dashboard</h1>
+        <ul class="dash-menu">
+            <li><img src="./imgs/icons/home-outline.png" alt="home page">Home</li>
+            <li><img src="./imgs/icons/account-box-outline.png" alt="profile page"> Profile</li>
+            <li><img src="./imgs/icons/inbox-outline.png" alt="view inbox"> Messages</li>
+            <li><img src="./imgs/icons/clipboard-text-clock-outline.png" alt="view history"> History</li>
+            <li><img src="./imgs/icons/calendar-check-outline.png" alt="view tasks"> Tasks</li>
+            <li><img src="./imgs/icons/account-group-outline.png" alt="community page"> Communities</li>
+        </ul>
+        <ul class="dash-settings-menu">
+            <li><img src="./imgs/icons/cog-outline.png" alt="settings"> Settings</li>
+            <li><img src="./imgs/icons/lifebuoy.png" alt="support"> Support</li>
+            <li><img src="./imgs/icons/shield-lock.png" alt="privacy"> Privacy</li>
+        </ul>
+    </div>
+    
+    <div class="content">
+         <h1>Your Projects</h1>
+         <div class='projects'>
+                <div class="card">
+                    <h3 class="card-title">Sandstone Archives</h3>
+                    <p class="card-text">My starting project, a website with a theme which I now regret making but not enough to go back and fix.</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Etch-A-Sketch Lightboard</h3>
+                    <p class="card-text">I made this to meet a project titled Etch A Sketch but my friend who was helping me test promptly pointed out that this is "just a lightboard".</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Calculator</h3>
+                    <p class="card-text">Need a Calculator? Why use the one built into your PC. Or the one on  your phone.. or google... when you can use... mine?</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Rock Paper Scissors</h3>
+                    <p class="card-text">ARE YOU READY FOR THE COMPETITION OF THE YEAR. GET READY TO RUUUMMMMMBBBBLLLLEEEE</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Mystereeble</h3>
+                    <p class="card-text">This was an independent project where I tried to remake wordle but on my own without help. Play at your own peril.</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">... Just Cats</h3>
+                    <p class="card-text">This isn't really a project but, isn't he just so gosh darn cute? Photo credit to.</p>
+                    <ul class="card-links">
+                        <li><img src="./imgs/icons/heart-outline.png" alt="favorite project"></li>
+                        <li><img src="./imgs/icons/trash-can-outline.png" alt="delete project"></li>
+                        <li><img src="./imgs/icons/share-all-outline.png" alt="share project"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    
+    <div class="sidebar">
+        <h2>Announcements</h2>
+        <div class="announcements">
+            <div class="sidebar-card">
+                <h3>Test</h3>
+                <p>test est testse tset test test</p>
+                <hr>
+            </div>
+        </div>
+        <h2>Trending</h2>
+        <div class="trending">
+            <div class="sidebar-card">
+                <h3>Test</h3>
+                <p>test est testse tset test test</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
